@@ -1,0 +1,53 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imagens/fundopreto.avif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.856);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.container h1 {
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.container h2 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 15px 40px;
+    margin: 5px 0;
+    font-size: 20px;
+    border-radius: 30px;
+}
